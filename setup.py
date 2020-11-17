@@ -67,7 +67,7 @@ include_dirs = [
 
 # Need to build in c++11 minimum
 # TODO add a check to use c++14 or c++17 if available
-extra_compile_args = ["-std=c++11"]
+extra_compile_args = ["-std=gnu++11"]
 
 # build HDT extension
 hdt_extension = Extension("hdt", sources=sources, include_dirs=include_dirs,
